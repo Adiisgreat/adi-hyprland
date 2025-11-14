@@ -1,0 +1,120 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: transparent;
+
+    color: rgb(255, 255, 255);
+}
+
+tooltip {
+    background: rgba(43, 48, 59, 0.5);
+    border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+    color: rgb(255, 255, 255);
+}
+
+#workspaces button {
+    transition: all 200ms ease-in-out;
+    padding: 0 8px;
+    margin: 0 2px;
+    border-radius: 100px;
+    background: #121212;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+    min-width: 40px;
+}
+
+#workspaces button.active {
+    min-width: 50px;
+    background: rgb(179, 178, 178);
+    color: #000000;
+    border: 1px solid rgb(255, 252, 252);
+}
+
+#clock {
+    font-weight: 700;
+    border-radius: 100px;
+    min-width: 200px;
+    background: #121212;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+}
+
+#battery {
+    margin-right: 2px;
+    min-width: 70px;
+    border-radius: 100px;
+    background: #121212;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+}
+
+#pulseaudio {
+    font-weight: 700;
+    border-radius: 100px;
+    min-width: 80px;
+    margin-right: 2px;
+    background: #121212;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+}
+
+#network {
+    font-weight: 700;
+    border-radius: 100px;
+    min-width: 200px;
+    margin-right: 2px;
+    background: #121212;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+}
+#bluetooth {
+    font-weight: 700;
+    border-radius: 200px;
+    min-width: 50px;
+    margin-right: 2px;
+    background: #121212;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+}
+#custom-power {
+    font-weight: 700;
+    border-radius: 100px;
+    min-width: 50px;
+    margin-right: 2px;
+    background: #121212;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+}
+
+menu {
+    margin-top: 100px; /* ⬇️ small, clean gap below the bar */
+    margin-right: 10px;
+    border-radius: 15px;
+    background: #181818;
+    color: #bdbdbd;
+    padding: 6px 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* adds soft floating look */
+}
+
+menuitem {
+    border-radius: 8px;
+    padding: 4px 10px;
+}
+
+menuitem:hover {
+    background-color: #1f1b2e;
+    color: #ffffff;
+}
+
